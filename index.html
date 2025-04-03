@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 style="display: flex;justify-content: center;
+        align-items: center;height: 80px;margin: 0;flex-direction: column;color: indianred;">My E-Commerce Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product-list" style="display: flex;justify-content:space-around;flex-wrap:wrap;gap: 20px;">
+            <div class="product" style="width: 300px ;padding: 10px;border: 1px;word-wrap: break-word;overflow-wrap: break-word;">
+                <img src="images/cable.webp" alt="cable">
+                <h3>Sounce USB to Rj45 Ethernet Adapter, USB to 10/100/1000 Gigabit Ethernet LAN Network Adapter
+                     Compatible for MacBook, Surface Pro, Notebook PC with Windows7/8/10, XP, Vista, Mac</h3>
+                <p>549.00 Rs</p>
+                <button style="background-color:gold;color:black;border: none;justify-content:space-around;padding: 10px 20px;
+                border-radius: 5px;cursor: pointer;" 
+                onclick="addToCart()">Add to Cart</button>
+                <button style="background-color:green;color:white;border: none;justify-content:space-around;padding: 10px 20px;
+                border-radius: 5px;cursor: pointer;" 
+                onclick="buy()">Buy Now</button>
+            </div>
+            <div class="product" style="width: 300px ;padding: 10px;border: 1px;word-wrap: break-word;overflow-wrap: break-word;">
+                <img src="images/table.webp" alt="table">
+                <h3>Laptop foldable stand</h3>
+                <p>1599.00 Rs</p>
+                <button style="background-color:gold;color:black;border: none;justify-content:space-around;padding: 10px 20px;
+                border-radius: 5px;cursor: pointer;"  
+                onclick="addToCart()">Add to Cart </button>
+                <button style="background-color:green;color:white;border: none;justify-content:space-around;padding: 10px 20px;
+                border-radius: 5px;cursor: pointer;" 
+                onclick="buy()">Buy Now</button>
+            </div>
+            <div class="product"style="width: 300px ;padding: 10px;border: 1px;word-wrap: break-word;overflow-wrap: break-word;">
+                <img src="images/laptop.jpeg" alt="laptop">
+                <h3>HP Victus, 12th Gen Intel Core i7-12650H,NVIDIA RTX 3050, 16GB DDR4, 512GB SSD (Win11, Office21, Blue,2.3kg)
+                     144Hz, 9MS, IPS, 15.6-inch(39.6cm), Flicker-Free Gaming Laptop, Enhanced Cooling, fa1382TX
+                </h3>
+                <p>41999.00 Rs</p>
+                <button style="background-color:gold;color:black;border: none;justify-content:space-around;padding: 10px 20px;
+                border-radius: 5px;cursor: pointer;" 
+                 onclick="addToCart()">Add to Cart</button>
+                 <button style="background-color:green;color:white;border: none;justify-content:space-around;padding: 10px 20px;
+                border-radius: 5px;cursor: pointer;" 
+                onclick="buy()">Buy Now</button>
+            </div>
+            <div class="product" style="width: 300px ;padding: 10px;border: 1px;word-wrap: break-word;overflow-wrap: break-word;">
+                <img src="images/printer.jpeg" alt="printer">
+                <h3>HP Smart Tank 589 All-in-One WiFi Colour Printer</h3>
+                <p>2359.00 Rs</p>
+                <button style="background-color:gold;color:black;border: none;justify-content:space-around;padding: 10px 20px;
+                border-radius: 5px;cursor: pointer;" 
+                 onclick="addToCart()">Add to Cart</button>
+                 <button style="background-color:green;color:white;border: none;justify-content:space-around;padding: 10px 20px;
+                border-radius: 5px;cursor: pointer;" 
+                onclick="buy()">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
