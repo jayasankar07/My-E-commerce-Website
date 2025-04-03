@@ -1,4 +1,4 @@
-* E-COMMERCE WEBSITE
+* E-COMMERCE WEBSITE *
 A brief description about whats this project is about
 
 * This project is a simple e-commerce website built using HTML, CSS, and JavaScript. It provides a user-friendly interface for browsing products, adding them to a shopping cart, and proceeding to checkout. The website is designed to be fully responsive and interactive using JavaScript.
